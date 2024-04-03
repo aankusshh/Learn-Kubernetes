@@ -13,7 +13,7 @@
     - Startup
     - Detached and etc…
 - Labels and Selectors
-- Scaling (up and down)
+- Scaling (up and down) (Auto-Scaling)
 - Replication Controller
 - Replica Set
 - Deployment
