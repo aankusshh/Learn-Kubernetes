@@ -13,7 +13,7 @@
     - Startup
     - Detached and etc…
 - Labels and Selectors
-- Scaling (up and down) (Auto-Scaling)
+- Scaling (up and down) 
 - Replication Controller
 - Replica Set
 - Deployment
@@ -26,6 +26,7 @@
 - ConfigMap and Secrets
 - NameSpace
 - ResourceQuota (Request and limits)
+- Horizontal Pod Autoscaling
 - Jobs and init Container
 - Helm
     - why helm
