@@ -70,7 +70,7 @@
 - Container Engine
 - Kube Proxy
 
-## Kubectl
+## Kubelet
 
 - Ensures that pod is always running.
 - Agent running on nodes.
