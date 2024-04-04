@@ -83,4 +83,32 @@ kubectl apply -f https://docs.projectcalico.org/v3.20/manifests/calico.yaml
 kubectl apply -f https://raw.githubusercontent.com/kubernetes/ingress-nginx/controller-v0.49.0/deploy/static/provider/baremetal/deploy.yaml
 ```
 
+## Installation of MINIKUBE
+
+**Requirements**
+2 CPUs or more
+2GB of free memory
+20GB of free disk space
+
+**Start a cluster using the docker driver:**
+```bash
+minikube start --driver=docker
+```
+
+**Make docker the default driver:**
+```bash
+minikube config set driver docker
+```
+
+**Install the latest minikube stable release on x86-64 Linux using binary download:**
+```bash
+curl -LO https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64
+sudo install minikube-linux-amd64 /usr/local/bin/minikube && rm minikube-linux-amd64
+```
+
+**Start your cluster**
+```bash
+minikube start
+```
+
 This document provides a step-by-step guide to set up a Kubernetes cluster on an Ubuntu system, including installing Docker, adding Kubernetes repositories, installing Kubernetes components, initializing the master node, configuring Kubernetes for the current user, and deploying essential networking and ingress controllers.
