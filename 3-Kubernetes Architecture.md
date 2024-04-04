@@ -16,6 +16,10 @@
 - Can be multimaster for high availability.
 - Master runs control plane to run cluster smoothly.
 
+# ARCHITECTURE
+![Kubernetes Architecture](Kubernetes-cluster-architecture.ppm)
+
+
 # Components of control plane (Master)
 
 - Kube-api
