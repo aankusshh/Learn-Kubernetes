@@ -13,7 +13,6 @@
 ## Basic Objects in Kubernetes
 
 | Pod | Secrets |
-| --- | --- |
 | Service | ConfigMaps |
 | Volume | Deployment |
 | NameSpace | Jobs |
