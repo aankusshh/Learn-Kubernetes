@@ -14,9 +14,9 @@ apiVersion: v1
 kind: Pod
 metadata:
   name: label-demo
-  **labels:
+  labels:
     environment: production
-    app: nginx**
+    app: nginx
 spec:
   containers:
   - name: nginx
